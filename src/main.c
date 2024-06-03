@@ -6,7 +6,13 @@
 /*   By: sezequie <sezequie@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/03 13:47:16 by sezequie          #+#    #+#             */
-/*   Updated: 2024/06/03 13:47:17 by sezequie         ###   ########.fr       */
+/*   Updated: 2024/06/03 14:20:17 by sezequie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+int	main(int argc, char *argv[])
+{
+	validate_map(argc, argv[1]);
+	build_window();
+	return (0);
+}
